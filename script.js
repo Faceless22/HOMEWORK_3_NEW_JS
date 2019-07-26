@@ -1,8 +1,8 @@
 "use strict";
 
+
 /* 1. Сделайте функцию isNumberInRange, которая параметром принимает число и проверяет, что оно 
 больше нуля и меньше 10. Если это так - пусть функция возвращает true, если не так - false.   */
-
 
 function isNumberInRange(num){
     if(num > 0 && num < 10){
@@ -26,10 +26,10 @@ function isEven(value){
 }
 
 
-let isEven = function(number){
+/*let isEven = function(number){
     return (number % 2 == 0) ? true : false;
 }
-
+*/
 
 /* 3. Переписать код из конструкции if в switch
 
@@ -46,12 +46,13 @@ if (value == 2 || value == 3) {
 
 let value = +prompt('value?', '');
 switch(value){
-    case 1:
+    case 0:
         console.log(0);
         break;
-    case 2:
+    case 1:
         console.log(1);
         break;
+    case 2:
     case 3:
         console.log('2, 3');
         break;
@@ -60,8 +61,8 @@ switch(value){
 
 /*  4. Напишите функцию min(a,b), которая возвращает меньшее из чисел a,b
 Пример вызовов: 
-min(3, 5) // вернет 3
-min(5, -1) // вернет -1   */
+min(3(a), 5(b)) // вернет 3
+min(5(a), -1(b)) // вернет -1   */
 
 function min (a, b){
     if(a < b){
